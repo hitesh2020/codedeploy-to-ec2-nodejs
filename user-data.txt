@@ -1,9 +1,9 @@
 #!/bin/bash
-sudo apt-get -y update
+sudo yum update -y
 
 # INSTALL NODEJS - ONLY FOR UBUNTU
-sudo apt install nodejs -y
+sudo yum install nodejs -y
 
 # INSTALL NPM & PM2 - ONLY FOR UBUNTU
-sudo apt install npm -y
+sudo yum install npm -y
 sudo npm install pm2@latest -g
